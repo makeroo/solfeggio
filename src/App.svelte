@@ -176,6 +176,7 @@
 <style>
 	main {
 		padding: 1em;
+		max-width: 500px;
 		margin: 0 auto;
 	}
 
@@ -198,6 +199,7 @@
 	}
 
 	.debug {
+		display: none;
 		margin: 8px 0;
 		color: darkgray;
 		text-align: left;
