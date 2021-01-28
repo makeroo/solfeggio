@@ -176,7 +176,6 @@
 <style>
 	main {
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
@@ -194,7 +193,7 @@
 	}
 
 	:global(.note) {
-		margin: 0 8px;
+		margin: 2px 8px;
 		width: 5em;
 	}
 
@@ -211,11 +210,5 @@
 
 	:global(.right) {
 		background-color: lightgreen;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 </style>
